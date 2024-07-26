@@ -37,19 +37,19 @@
 
 
 [취미활동 효과](https://www.chosun.com/medical/2023/10/18/B5PZBAYPXFHVTCDRUE3PVN47ZM/)
-![취미활동 효과](https://private-user-images.githubusercontent.com/74580387/352433906-e6c14b4d-88ed-49a8-a2fe-b10756fa725e.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM5MDYtZTZjMTRiNGQtODhlZC00OWE4LWEyZmUtYjEwNzU2ZmE3MjVlLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRjYmUyMGQzYzlhY2EyNzlkMmVkYzYyYThkYWY3Y2MyNDQyMGJkMzZkNjk3OTVkM2VhNDU5YzgzYTBjYmRiNmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ytGLXaB9ZqdzUSzYqAYVRDf1tGIqGvUpPQC9Qi6z6Xo)
+![취미활동 효과](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EC%B7%A8%EB%AF%B8%ED%99%9C%EB%8F%99%20%EC%9E%90%EB%A3%8C.jpg?raw=true)
 
 
 
 [취미활동 현황](https://www.hankyung.com/article/2024040878281)
-![취미활동 효과](https://private-user-images.githubusercontent.com/74580387/352433890-68b721f4-a5ff-44cc-9fbd-a1d41c7404c5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM4OTAtNjhiNzIxZjQtYTVmZi00NGNjLTlmYmQtYTFkNDFjNzQwNGM1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0YjYwODc0MTNiZWI3NWNlYTgxMWYwY2RlZmU1ZGM1MTI1MTk4OWRjN2I1MWM3Mjk1ZTc4YWRjOWIwNDIxODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fh6-oYYGiSeTCnWVFHJCEAYGw52GT_YkPsVDA4_P4iE)
+![취미활동 효과](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EA%B4%91%EC%A3%BC%20%EC%B7%A8%EB%AF%B8%ED%99%9C%EB%8F%99.jpg?raw=true)
 
 
 
 
 [취미활동 증진](https://mobile.hidoc.co.kr/healthstory/news/C0000829108)
 
-![취미활동 좋아](https://private-user-images.githubusercontent.com/74580387/352433908-b5cc11b1-c5f8-4bfc-a0a2-4b13f1b9c545.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM5MDgtYjVjYzExYjEtYzVmOC00YmZjLWEwYTItNGIxM2YxYjljNTQ1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzOWNmMWQ3YmY4OTcxOTM2MjUzMDRiOTA5YWFhZDU5OTMyOTIzMzg4Zjk5MTMyZjBhZWU2MTllNmQ0ZDIwYWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.u9uCoyAnzOgHcJ-Cc935pRXWVa1xApLgs02jCkVnwMg)
+![취미활동 좋아](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EC%B7%A8%EB%AF%B8%ED%99%9C%EB%8F%99%20%EC%A2%8B%EC%95%84.jpg?raw=true)
 
 
 <br/>
@@ -147,13 +147,13 @@
 
 ## ⛓️‍💥 WBS
 [WBS](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=1957226264#gid=1957226264)
-<img width="1100" src="https://private-user-images.githubusercontent.com/74580387/352433887-6f27f57f-2133-4967-99b3-f90360c4e0a7.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM4ODctNmYyN2Y1N2YtMjEzMy00OTY3LTk5YjMtZjkwMzYwYzRlMGE3LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY4ODhlYzIzMTAyYThiOTE3NjhiZDk5NWVlYWJmMmEyOTA4ZGNhNDgxNDI1MTg2ZmVjNmE0YjJiYjdjODlmNWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.SDOdy5ngIESGEAyYmS1XNZAFrJOjJoP2-ugPtrU1Fx4"/>
+<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/WBS.jpg?raw=true"/>
 </br></br>
 
 ## ✏️ ERD
 - **ERD**
 </br>
-<img width="2000" src="https://private-user-images.githubusercontent.com/74580387/352433874-4286f4bb-019f-4391-bd55-17d8eb648d03.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM4NzQtNDI4NmY0YmItMDE5Zi00MzkxLWJkNTUtMTdkOGViNjQ4ZDAzLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjNTI1NjZkY2JhNDhkZGQyNTRmYjZhNjMzNTVhZjdjY2IwM2Y5M2NjM2I5ZGQ0OGY0Mjc5NGUxNzIyZjlkYzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fkKw4ANc51omw1ABFqzzNazLTLueDTToeE3fXyp0YPw">
+<img width="2000" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/ERD.jpg?raw=true">
 </br></br>
 
 
@@ -162,14 +162,14 @@
 - 논리 모델링
   
 </br>
-<img width="1100" src="https://private-user-images.githubusercontent.com/74580387/352433898-2f61f3fb-e0ec-4e24-a96c-676788c73a2b.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM4OTgtMmY2MWYzZmItZTBlYy00ZTI0LWE5NmMtNjc2Nzg4YzczYTJiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlODc2ZjFmMjk2NmZiY2UzYTkwMTAxZmRhMDAxMjkzYTg3NjcwNjk4YWRiYjI1ZmJlNWE5MjY5OGM5MzllMTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.gdUnTxRvfMVhTwoJlA1Qnb4mqRnOmsH1XC4PP2oZ1go">
+<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EB%85%BC%EB%A6%AC.jpg?raw=true">
 </br>
 </br>
 
 - 물리 모델링
   
 </br>
-<img width="1100" src="https://private-user-images.githubusercontent.com/74580387/352433902-3e9d2917-3c63-4720-84f6-11b222c14e72.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM5MDItM2U5ZDI5MTctM2M2My00NzIwLTg0ZjYtMTFiMjIyYzE0ZTcyLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU2N2I2ZmQxOTNjY2MwMTg0MzYwMWMyMGI3ODk2ZTQzZDAzYWE4YmI3YWE0ZWZkMTY3OWI3MzYyMTYxMjVjNGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.vWfRT3JjCC7n6k6cHRlLJ3QImtXmSmZ0AMbjyTpnGg0">
+<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EB%AC%BC%EB%A6%AC%EC%98%81%EC%97%AD.jpg?raw=true">
 </br>
 </br>
 
@@ -835,4 +835,4 @@
 
 ## 📚 테스트케이스
 [테스트케이스](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=687187419#gid=687187419)
-<img width="1100" src="https://private-user-images.githubusercontent.com/74580387/352433915-48ae285c-ef23-4100-8aef-95d656f516ca.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzkzMDksIm5iZiI6MTcyMTk3OTAwOSwicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM5MTUtNDhhZTI4NWMtZWYyMy00MTAwLThhZWYtOTVkNjU2ZjUxNmNhLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzAwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc4ZTE5YTIxZGVjYzYxYTU2YTljMWNiZTJmOTYzOGE2ZTNmY2I5MjA3OWY0MmY4MGRlZDM1NmEwMzQ4YWYwYWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ch3AouMbQ3oT3m649T4Jeb6ryEbE5-frg08cwpD0PbQ">
+<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4.jpg?raw=true">
