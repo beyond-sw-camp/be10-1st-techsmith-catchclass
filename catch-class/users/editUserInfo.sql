@@ -5,8 +5,8 @@ DELIMITER //
 CREATE PROCEDURE EditPwd(IN user_id_para INT, IN pwd_para VARCHAR(20))
 BEGIN
 	UPDATE users
-	SET pwd=pwd_para
-	WHERE user_id=user_id_para;
+	SET pwd = pwd_para
+	WHERE user_id = user_id_para;
 END //
 
 DELIMITER ;
@@ -25,7 +25,7 @@ CREATE PROCEDURE EditTel(
 BEGIN
 	UPDATE users
 	SET telphone = tel_para
-	WHERE user_id=user_id_para;
+	WHERE user_id = user_id_para;
 END //
 
 DELIMITER ;
@@ -36,7 +36,7 @@ DELIMITER ;
 -- 정보 수정 예외처리 트리거
 DELIMITER //
 
-CREATE TRIGGER before_user_info_update
+CREATE TRIGGER BeforeUserInfoUpdate
 BEFORE update ON users
 FOR EACH ROW
 BEGIN
