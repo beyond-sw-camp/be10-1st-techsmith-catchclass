@@ -4,8 +4,8 @@ DELIMITER //
 CREATE PROCEDURE class_list()
 BEGIN 
 	SELECT 
-		c.class_name AS 수업명,
-		u.user_name AS 강사명
+		c.class_name AS 클래스명,
+		u.user_name AS 사업자명
 	FROM class c
  	left JOIN users u ON c.user_id = u.user_id;
 END //
