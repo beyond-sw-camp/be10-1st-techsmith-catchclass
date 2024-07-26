@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS users
     user_id      INT NOT NULL AUTO_INCREMENT COMMENT '회원ID',
     login_id     VARCHAR(20) NOT NULL UNIQUE KEY COMMENT '로그인ID',
     pwd          VARCHAR(20) NOT NULL COMMENT '비밀번호',
-    user_name         VARCHAR(15) NOT NULL COMMENT '이름',
+    user_name    VARCHAR(15) NOT NULL COMMENT '이름',
     birthdate    DATE NOT NULL COMMENT '생년월일',
     telphone     VARCHAR(15) NOT NULL COMMENT '전화번호',
     gender       ENUM('F','M') NOT NULL COMMENT '성별',
@@ -40,13 +40,14 @@ CREATE TABLE IF NOT EXISTS users
 -- class
 CREATE TABLE IF NOT EXISTS class
 (
-    class_id     INT NOT NULL AUTO_INCREMENT COMMENT '클래스ID',
-    class_name   VARCHAR(100) NOT NULL COMMENT '클래스 이름',
-    location     VARCHAR(100) NOT NULL COMMENT '장소',
-    price        INT NOT NULL COMMENT '가격',
-    class_status BOOLEAN NOT NULL COMMENT '클래스 상태' DEFAULT TRUE,
-    ctg_id       INT NOT NULL COMMENT '카테고리ID',
-    user_id      INT NULL COMMENT '회원ID',
+    class_id      INT NOT NULL AUTO_INCREMENT COMMENT '클래스ID',
+    class_name    VARCHAR(100) NOT NULL COMMENT '클래스 이름',
+    class_content VARCHAR(500) NOT NULL COMMENT '클래스 내용',
+    location      VARCHAR(100) NOT NULL COMMENT '장소',
+    price         INT NOT NULL COMMENT '가격',
+    class_status  BOOLEAN NOT NULL COMMENT '클래스 상태' DEFAULT TRUE,
+    ctg_id        INT NOT NULL COMMENT '카테고리ID',
+    user_id       INT NULL COMMENT '회원ID',
     PRIMARY KEY (class_id),
     FOREIGN KEY (ctg_id) REFERENCES category(ctg_id),
     FOREIGN KEY (user_id) REFERENCES users(user_id)
@@ -58,13 +59,14 @@ CREATE TABLE IF NOT EXISTS subclass
 (
     subclass_id       INT NOT NULL AUTO_INCREMENT COMMENT '회차ID',
     tutor_name        VARCHAR(100) NOT NULL COMMENT '강사 이름',
+    subclass_content  VARCHAR(300) NOT NULL COMMENT '상세 내용',
     reservation_limit INT NOT NULL COMMENT '예약 정원',
     reservation_count INT NOT NULL COMMENT '현재 예약 인원',
     room_info         VARCHAR(5) NOT NULL COMMENT '강의실',
     class_date        DATETIME NOT NULL COMMENT '클래스 날짜',
     start_time        DATETIME NOT NULL COMMENT '클래스 시작 시간',
     end_time          DATETIME NOT NULL COMMENT '클래스 종료 시간',
-    subclass_status   BOOLEAN NOT NULL COMMENT '회차 상태' DEFAULT TRUE,
+    subclass_status   ENUM('1', '2', '0') NOT NULL DEFAULT 1 COMMENT '회차 상태' ,
     class_id          INT NOT NULL COMMENT '클래스ID',
     PRIMARY KEY (subclass_id),
     FOREIGN KEY (class_id) REFERENCES class(class_id) 
@@ -139,7 +141,7 @@ CREATE TABLE IF NOT EXISTS comments
     post_id              INT NOT NULL COMMENT '게시글 ID',
     user_id              INT NULL COMMENT '회원ID',
     comment_update_time  DATETIME COMMENT '댓글 수정 시간',
-    comment_status       BOOLEAN COMMENT '댓글 상태',
+    comment_status       BOOLEAN DEFAULT TRUE COMMENT '댓글 상태',
     PRIMARY KEY (comment_id),
     FOREIGN KEY (post_id) REFERENCES post(post_id),
     FOREIGN KEY (user_id) REFERENCES users(user_id)  
@@ -204,7 +206,7 @@ CREATE TABLE IF NOT EXISTS coupon
 CREATE TABLE IF NOT EXISTS coupon_owner
 (
     coupon_owner_id    INT NOT NULL AUTO_INCREMENT COMMENT '쿠폰 소유자ID',
-    coupon_status     BOOLEAN NOT NULL COMMENT '쿠폰 상태',
+    coupon_status      BOOLEAN NOT NULL COMMENT '쿠폰 상태',
     coupon_id          INT NOT NULL COMMENT '쿠폰ID',
     user_id            INT NULL COMMENT '회원ID',
     PRIMARY KEY (coupon_owner_id),
