@@ -1,5 +1,5 @@
 
-![설명 텍스트](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/main/logo.jpeg?raw=true)
+![설명 텍스트](./image/logo.jpeg)
 
 ### 🪪팀명 : 테크스미스
 </br>
@@ -33,23 +33,23 @@
 
 [노인 학습에 관한 연구](https://private-user-images.githubusercontent.com/74580387/352433895-7a0acb58-b7c6-4202-a8d3-ce729bfba6dd.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5Nzk3NDMsIm5iZiI6MTcyMTk3OTQ0MywicGF0aCI6Ii83NDU4MDM4Ny8zNTI0MzM4OTUtN2EwYWNiNTgtYjdjNi00MjAyLWE4ZDMtY2U3MjliZmJhNmRkLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA3MzcyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA3YzMzNjBiZTgzNDczNzU4ODhiMmIxNmI4ZTI1MmY5ZGZlOWY4M2QwYjUxYjcyMzRkZGMxMjQ4NWFjZTg0NWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zGJzWEJUVEIvPj3eliVhQoaY5GUKu3iF8j-_1z5iY44)
 
-![노인학습](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EB%85%B8%EC%9D%B8%20%ED%95%99%EC%8A%B5%201.jpg?raw=true)
+![노인학습](./image/노인%20학습%201.jpg)
 
 
 [취미활동 효과](https://www.chosun.com/medical/2023/10/18/B5PZBAYPXFHVTCDRUE3PVN47ZM/)
-![취미활동 효과](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EC%B7%A8%EB%AF%B8%ED%99%9C%EB%8F%99%20%EC%9E%90%EB%A3%8C.jpg?raw=true)
+![취미활동 효과](./image/취미활동%20자료.jpg)
 
 
 
 [취미활동 현황](https://www.hankyung.com/article/2024040878281)
-![취미활동 효과](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EA%B4%91%EC%A3%BC%20%EC%B7%A8%EB%AF%B8%ED%99%9C%EB%8F%99.jpg?raw=true)
+![취미활동 효과](./image/광주%20취미활동.jpg)
 
 
 
 
 [취미활동 증진](https://mobile.hidoc.co.kr/healthstory/news/C0000829108)
 
-![취미활동 좋아](https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EC%B7%A8%EB%AF%B8%ED%99%9C%EB%8F%99%20%EC%A2%8B%EC%95%84.jpg?raw=true)
+![취미활동 좋아](./image/취미활동%20좋아.jpg)
 
 
 <br/>
@@ -147,13 +147,13 @@
 
 ## ⛓️‍💥 WBS
 [WBS](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=1957226264#gid=1957226264)
-<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/WBS.jpg?raw=true"/>
+![WBS이미지](./image/WBS.jpg)
 </br></br>
 
 ## ✏️ ERD
 - **ERD**
 </br>
-<img width="2000" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/ERD.jpg?raw=true">
+![ERD이미지](./image/ERD.jpg)
 </br></br>
 
 
@@ -162,14 +162,14 @@
 - 논리 모델링
   
 </br>
-<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EB%85%BC%EB%A6%AC.jpg?raw=true">
+![논리이미지](./image/논리.jpg)
 </br>
 </br>
 
 - 물리 모델링
   
 </br>
-<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%EB%AC%BC%EB%A6%AC%EC%98%81%EC%97%AD.jpg?raw=true">
+![물리이미지](./image/물리영역.jpg)
 </br>
 </br>
 
@@ -835,4 +835,4 @@
 
 ## 📚 테스트케이스
 [테스트케이스](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=687187419#gid=687187419)
-<img width="1100" src="https://github.com/beyond-sw-camp/be10-1st-techsmith-catchclass/blob/docs/readme/image/%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4.jpg?raw=true">
+![테스트이미지](./image/테스트케이스.jpg)
