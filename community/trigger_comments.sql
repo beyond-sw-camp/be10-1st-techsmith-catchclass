@@ -18,7 +18,7 @@ BEGIN
     END IF;
 END //
 
--- ''을 comment에 update할 때 예외처
+-- ''을 comment에 update할 때 예외처리
 
 CREATE TRIGGER before_comment_update
 BEFORE UPDATE ON comments

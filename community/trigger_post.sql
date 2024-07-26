@@ -22,6 +22,8 @@ BEGIN
     END IF;
 END //
 
+-- post update 전에 null, '' 처리
+
 CREATE TRIGGER before_post_update
 BEFORE UPDATE ON post
 FOR EACH ROW
