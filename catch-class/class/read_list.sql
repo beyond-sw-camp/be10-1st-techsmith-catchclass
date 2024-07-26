@@ -2,6 +2,7 @@
 DELIMITER // 
 
 CREATE PROCEDURE ClassList()
+BEGIN 
 	SELECT 
 		c.class_name AS 클래스명,
 		u.user_name AS 사업자명
