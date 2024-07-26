@@ -16,3 +16,5 @@ BEGIN
 END //
 
 DELIMITER ;
+
+CALL ViewReviews();
