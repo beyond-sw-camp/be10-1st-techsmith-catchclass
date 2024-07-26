@@ -3,9 +3,9 @@ SELECT
 	users.user_name
 	, class.class_name
 	FROM reservation reservation
-	JOIN users users ON reservation.user_id = users.user_id
-	JOIN subclass subclass ON reservation.round_id = subclass.subclass_id
-	JOIN class class ON subclass.class_id = class.class_id
+	JOIN users ON reservation.user_id = users.user_id
+	JOIN subclass ON reservation.round_id = subclass.subclass_id
+	JOIN class ON subclass.class_id = class.class_id
 	ORDER BY reservation.user_id;
 	
 -- 예약 조회 프로시저
