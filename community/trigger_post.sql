@@ -18,7 +18,7 @@ BEGIN
     END IF;
 
     IF NEW.post_time IS NULL THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '작성시간이 null일수 없습니다.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '작성 시간이 null일 수 없습니다.';
     END IF;
 END //
 
@@ -37,7 +37,7 @@ BEGIN
     END IF;
 
     IF NEW.post_time IS NULL THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '작성시간이 null일수 없습니다.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '작성 시간이 null일  수 없습니다.';
     END IF;
 END //
 
