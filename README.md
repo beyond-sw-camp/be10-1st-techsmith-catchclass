@@ -28,7 +28,6 @@
 
 >캐치클래스는 원데이클래스를 쉽고 빠르게 등록하고 신청할 수 있는 플랫폼입니다. 원하는 원데이클래스 수업을 간편하게 개설하고, 열려 있는 클래스에 참여할 수 있습니다. 또한, 원데이클래스 관련 커뮤니티에서 유용한 정보를 공유하고 다양한 팁을 얻을 수 있습니다. 특별한 쿠폰을 통해 친구나 동료들과 부담 없이 새로운 추억을 만들어보세요. 취미를 찾고 싶은 분들은 캐치클래스를 통해 다양한 경험을 쌓고, 인생의 또 다른 재미를 발견해 보세요.
 >
-</br>
 
 ## 💬 프로젝트 배경
 
@@ -44,7 +43,9 @@
 
 ![취미활동 효과](https://private-user-images.githubusercontent.com/74580387/352379075-4a28e705-5503-414d-96b0-823d7ae27124.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzIyNDcsIm5iZiI6MTcyMTk3MTk0NywicGF0aCI6Ii83NDU4MDM4Ny8zNTIzNzkwNzUtNGEyOGU3MDUtNTUwMy00MTRkLTk2YjAtODIzZDdhZTI3MTI0LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA1MzIyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFjMzMwODEyYTc2NGUzMjQ1ODQwZGRhOTRmNmQyNTkxYzg5ODRkOTFiZjY0YmE4YjM4NzQ4MWY0ZTIxNDQ2NzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.SRFLrJOxw4MzyJYoiJgguxQEsfztS6uGFWhLBp3fJjM)
 
+
 [취미활동 현황](https://www.hankyung.com/article/2024040878281)
+
 
 ![취미활동 좋아](https://private-user-images.githubusercontent.com/74580387/352379588-b20f38f8-a8b4-4851-b2e2-43d4d2295dd1.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE5NzIzMTYsIm5iZiI6MTcyMTk3MjAxNiwicGF0aCI6Ii83NDU4MDM4Ny8zNTIzNzk1ODgtYjIwZjM4ZjgtYThiNC00ODUxLWIyZTItNDNkNGQyMjk1ZGQxLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI2VDA1MzMzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZkNzExMjg4NWI0OTA0MmU5MzYyN2VlNjMzYjQyMzk5NGFhN2M5NzVhNGM2ZWJkNDJkZmFiMmJhMDk3ODZkMWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.zRFtsXZ01EpvQZ6xH6HaYzfBFBCh3hG4ndKjQa84aMA)
 
