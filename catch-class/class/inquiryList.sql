@@ -6,7 +6,7 @@ CREATE PROCEDURE InquiryList()
 		    u.login_id 
 		    i.inq_title 
 		FROM inquiry i 
-		JOIN user u ON i.user_id = u.user_id
+		JOIN users u ON i.user_id = u.user_id
 		WHERE i.inq_secret = FALSE;
 	END //
 		
