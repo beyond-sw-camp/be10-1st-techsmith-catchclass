@@ -14,29 +14,29 @@ INSERT INTO users (login_id, pwd, user_name, birthdate, telphone, gender, author
 ('user9', 'pass9', 'Ivan', '1987-04-14', '010-9012-3456', 'M', 'tutor'),
 ('user10', 'pass10', 'Judy', '1994-08-10', '010-0123-4567', 'F', 'user');
 
-INSERT INTO class (class_name, location, price, class_status, ctg_id, user_id) VALUES
-('Painting Basics', 'Seoul', 50000, true, 1, 3),
-('Guitar for Beginners', 'Busan', 60000, true, 2, 9),
-('Italian Cooking', 'Daegu', 70000, true, 3, 6),
-('Yoga for Everyone', 'Incheon', 40000, true, 4, 9),
-('Basic Programming', 'Daejeon', 80000, true, 5, 6),
-('Entrepreneurship 101', 'Ulsan', 90000, true, 6, 3),
-('Nutrition and Wellness', 'Sejong', 75000, true, 7, 6),
-('Conversational English', 'Gwangju', 65000, true, 8, 3),
-('Travel Photography', 'Jeju', 85000, true, 10, 9),
-('Digital Marketing', 'Seoul', 55000, true, 6, 3);
+INSERT INTO class (class_name, class_content, location, price, class_status, ctg_id, user_id) VALUES
+('Painting Basics', 'first content', 'Seoul', 50000, true, 1, 3),
+('Guitar for Beginners', 'second content', 'Busan', 60000, true, 2, 9),
+('Italian Cooking', 'third content', 'Daegu', 70000, true, 3, 6),
+('Yoga for Everyone', '4th content', 'Incheon', 40000, true, 4, 9),
+('Basic Programming', '5th content', 'Daejeon', 80000, true, 5, 6),
+('Entrepreneurship 101', '6th content', 'Ulsan', 90000, true, 6, 3),
+('Nutrition and Wellness', '7th content', 'Sejong', 75000, true, 7, 6),
+('Conversational English', '8th content', 'Gwangju', 65000, true, 8, 3),
+('Travel Photography', '9th content', 'Jeju', 85000, true, 10, 9),
+('Digital Marketing', '10th content', 'Seoul', 55000, true, 6, 3);
 
-INSERT INTO subclass (tutor_name, reservation_limit, reservation_count, room_info, class_date, start_time, end_time, subclass_status, class_id) VALUES
-('Charlie', 20, 10, 'A1', '2024-08-01 10:00:00', '2024-08-01 10:00:00', '2024-08-01 12:00:00', true, 1),
-('Ivan', 15, 12, 'B2', '2024-08-05 14:00:00', '2024-08-05 14:00:00', '2024-08-05 16:00:00', true, 2),
-('Fay', 25, 20, 'C3', '2024-08-10 09:00:00', '2024-08-10 09:00:00', '2024-08-10 11:00:00', true, 3),
-('Ivan', 30, 25, 'D4', '2024-08-15 15:00:00', '2024-08-15 15:00:00', '2024-08-15 17:00:00', true, 4),
-('Fay', 10, 8, 'E5', '2024-08-20 13:00:00', '2024-08-20 13:00:00', '2024-08-20 15:00:00', true, 5),
-('Charlie', 12, 11, 'F6', '2024-08-25 11:00:00', '2024-08-25 11:00:00', '2024-08-25 13:00:00', true, 6),
-('Fay', 18, 16, 'G7', '2024-08-30 16:00:00', '2024-08-30 16:00:00', '2024-08-30 18:00:00', true, 7),
-('Charlie', 22, 20, 'H8', '2024-09-01 10:00:00', '2024-09-01 10:00:00', '2024-09-01 12:00:00', true, 8),
-('Ivan', 15, 12, 'I9', '2024-09-05 14:00:00', '2024-09-05 14:00:00', '2024-09-05 16:00:00', true, 9),
-('Charlie', 20, 15, 'J10', '2024-09-10 09:00:00', '2024-09-10 09:00:00', '2024-09-10 11:00:00', true, 10);
+INSERT INTO subclass (tutor_name, subclass_content, reservation_limit, reservation_count, room_info, class_date, start_time, end_time, class_id) VALUES
+('Charlie', 'first', 20, 10, 'A1', '2024-08-01 10:00:00', '2024-08-01 10:00:00', '2024-08-01 12:00:00', 1),
+('Ivan', 'second', 15, 12, 'B2', '2024-08-05 14:00:00', '2024-08-05 14:00:00', '2024-08-05 16:00:00', 2),
+('Fay', 'third', 25, 20, 'C3', '2024-08-10 09:00:00', '2024-08-10 09:00:00', '2024-08-10 11:00:00', 3),
+('Ivan', '4th', 30, 25, 'D4', '2024-08-15 15:00:00', '2024-08-15 15:00:00', '2024-08-15 17:00:00', 4),
+('Fay', '5th', 10, 8, 'E5', '2024-08-20 13:00:00', '2024-08-20 13:00:00', '2024-08-20 15:00:00', 5),
+('Charlie', '6th', 12, 11, 'F6', '2024-08-25 11:00:00', '2024-08-25 11:00:00', '2024-08-25 13:00:00', 6),
+('Fay', '7th', 18, 16, 'G7', '2024-08-30 16:00:00', '2024-08-30 16:00:00', '2024-08-30 18:00:00', 7),
+('Charlie', '8th', 22, 20, 'H8', '2024-09-01 10:00:00', '2024-09-01 10:00:00', '2024-09-01 12:00:00', 8),
+('Ivan', '9th', 15, 12, 'I9', '2024-09-05 14:00:00', '2024-09-05 14:00:00', '2024-09-05 16:00:00', 9),
+('Charlie', '10th', 20, 15, 'J10', '2024-09-10 09:00:00', '2024-09-10 09:00:00', '2024-09-10 11:00:00', 10);
 
 INSERT INTO reservation (reservation_qty, user_id, round_id, reservation_time, total_price, final_price, reservation_status, attend, coupon_owner_id) VALUES
 (2, 1, 1, '2024-07-20 10:00:00', 100000, 95000, true, false, 1),
