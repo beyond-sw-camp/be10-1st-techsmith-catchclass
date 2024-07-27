@@ -7,19 +7,20 @@ CREATE PROCEDURE InsertReview(
     IN p_reservation_id INT
 )
 BEGIN
+    DECLARE v_attend BOOLEAN;
+
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
-        -- 오류가 발생하면 롤백
-        ROLLBACK;
         SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = '예약이 유효하지 않거나, 삽입 중 오류가 발생했습니다.';
+        SET MESSAGE_TEXT = '예약이 유효하지 않거나, 출석 여부가 확인되지 않았습니다.';
     END;
 
-    -- 트랜잭션 시작
-    START TRANSACTION;
-    
-    -- reservation id 가 유효한지 검증
-    IF EXISTS (SELECT 1 FROM reservation WHERE reservation_id = p_reservation_id) THEN
+    -- reservation id 가 유효한지 및 attend 필드가 TRUE인지 검증
+    SELECT attend INTO v_attend
+    FROM reservation
+    WHERE reservation_id = p_reservation_id;
+
+    IF v_attend = TRUE THEN
         INSERT INTO review (
             re_title,
             re_content,
@@ -40,16 +41,13 @@ BEGIN
             NULL,    -- 후기 삭제 시간은 NULL
             TRUE     -- 후기 상태는 TRUE
         );
-        -- 트랜잭션 커밋
-        COMMIT;
     ELSE
-        -- 유효하지 않은 reservation_id 경우
-        ROLLBACK;
         SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'reservation_id가 참조 테이블에 유효하지 않습니다.';
+        SET MESSAGE_TEXT = '예약이 유효하지 않거나, 출석 여부가 확인되지 않았습니다.';
     END IF;
 END //
 
 DELIMITER ;
 
-CALL InsertReview('wpw', 'sldkmf', '5', 1);
+
+CALL InsertReview('Great Experience', 'The class was very informative and engaging.', '5', 2);
