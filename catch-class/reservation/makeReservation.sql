@@ -144,3 +144,19 @@ END //
 DELIMITER ;
 
 -- CALL MakeReservation(2, 2, 2, 2);
+
+-- 결제 프로시저
+DELIMITER //
+
+CREATE PROCEDURE ProcessPayment(
+    OUT payment_status BOOLEAN
+)
+BEGIN
+    -- 외부 결제 시스템 연동
+    -- 결제 로직 구현 필요
+    
+    -- 결제 상태값 설정
+    SET payment_status = TRUE; -- 결제 성공
+END //
+
+DELIMITER ;
