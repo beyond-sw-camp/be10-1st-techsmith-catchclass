@@ -12,4 +12,4 @@ END //
 
 DELIMITER ;
 
-CALL CheckCert();
+-- CALL CheckCert();
