@@ -52,6 +52,6 @@ END //
 
 DELIMITER ;
 
--- attend 값이 0일때 입력 x, reservation_id가 유효하지 않을때 입력 x
+-- attend = 0 입력 x, reservation_id가 유효하지 않을때 입력 x
 
 CALL InsertReview('wpw', 'sldkmf', '5', 1);
