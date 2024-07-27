@@ -20,7 +20,7 @@ BEGIN
 		ORDER BY re_time;
 END //
 
-DELIMITER ;
+DELIMITER ;  
 
 
 CALL ViewReviewTimeR();    
