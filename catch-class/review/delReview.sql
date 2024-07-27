@@ -12,6 +12,4 @@ END //
 
 DELIMITER ;
 
-DROP PROCEDURE deletereview;
-
 CALL DeleteReview(13);
