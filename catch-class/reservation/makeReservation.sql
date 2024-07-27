@@ -160,3 +160,27 @@ BEGIN
 END //
 
 DELIMITER ;
+
+-- 쿠폰 수량 감소 및 상태 변경 트리거
+DELIMITER //
+
+CREATE TRIGGER AfterReservationInsert
+AFTER INSERT ON reservation
+FOR EACH ROW
+BEGIN
+    IF NEW.coupon_owner_id IS NOT NULL THEN
+        UPDATE coupon
+        SET coupon_amount = coupon_amount - 1
+        WHERE coupon_id = (
+            SELECT coupon_id
+            FROM coupon_owner
+            WHERE coupon_owner_id = NEW.coupon_owner_id
+        );
+
+        UPDATE coupon_owner
+        SET coupon_status = FALSE
+        WHERE coupon_owner_id = NEW.coupon_owner_id;
+    END IF;
+END //
+
+DELIMITER ;
