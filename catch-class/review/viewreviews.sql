@@ -20,6 +20,6 @@ BEGIN
 		WHERE re_status = TRUE;
 END //  
 
-DELIMITER ;
+DELIMITER ;   
 
 CALL ViewReviews();   
