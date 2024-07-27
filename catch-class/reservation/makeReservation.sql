@@ -36,7 +36,7 @@ BEGIN
         END IF;
     END IF;
 
-    SET final_price_param = (class_price - coupon_price) * reservation_qty_param;
+    SET final_price_param = (class_price * reservation_qty_param) - coupon_price;
 
 END //
 
