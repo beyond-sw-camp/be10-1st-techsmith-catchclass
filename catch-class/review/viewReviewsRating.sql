@@ -22,6 +22,4 @@ END //
 
 DELIMITER ;
 
-DROP PROCEDURE ViewReviewsRating;
-
 CALL ViewReviewsRating();
