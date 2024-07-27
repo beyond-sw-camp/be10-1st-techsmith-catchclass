@@ -11,7 +11,6 @@ BEGIN
     DECLARE v_class_id INT;
     DECLARE user_exists INT;
     DECLARE class_exists INT;
-    DECLARE bookmark_exists INT;
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
         ROLLBACK;
@@ -38,21 +37,9 @@ BEGIN
         ROLLBACK;
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Class does not exist.';
     ELSE
-        -- 중복 북마크 확인
-        SELECT COUNT(*) INTO bookmark_exists
-          FROM bookmark
-         WHERE user_id = v_user_id
-           AND class_id = v_class_id;
-        
-        -- 이미 북마크가 존재하면 에러 발생
-        IF bookmark_exists > 0 THEN
-            ROLLBACK;
-            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Bookmark already exists.';
-        ELSE
-            -- 북마크 추가
-            INSERT INTO bookmark (user_id, class_id)
-            VALUES (v_user_id, v_class_id);
-        END IF;
+        -- 북마크 추가
+        INSERT INTO bookmark (user_id, class_id)
+        VALUES (v_user_id, v_class_id);
     END IF;
 
     COMMIT;
