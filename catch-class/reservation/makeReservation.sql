@@ -90,3 +90,57 @@ BEGIN
 END //
 
 DELIMITER ;
+
+-- 예약 등록 프로시저
+DELIMITER //
+
+CREATE PROCEDURE MakeReservation(
+    IN user_id_param INT,
+    IN round_id_param INT,
+    IN reservation_qty_param INT,
+    IN coupon_owner_id_param INT
+)
+BEGIN
+    DECLARE reservation_limit_value INT;
+    DECLARE current_reservation_count INT;
+    DECLARE final_price INT;
+    DECLARE payment_status BOOLEAN;
+
+    START TRANSACTION;
+
+    SELECT reservation_limit, reservation_count
+    INTO reservation_limit_value, current_reservation_count
+    FROM subclass
+    WHERE subclass_id = round_id_param;
+
+    IF reservation_limit_value IS NULL THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '회차가 존재하지 않습니다.';
+    END IF;
+
+    IF current_reservation_count + reservation_qty_param > reservation_limit_value THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '예약 정원을 초과하여 예약할 수 없습니다.';
+    END IF;
+
+    CALL CalculateFinalPrice(round_id_param, reservation_qty_param, coupon_owner_id_param, final_price);
+
+    CALL ProcessPayment(payment_status);
+
+    IF payment_status THEN
+        CALL InsertReservation(user_id_param, round_id_param, reservation_qty_param, final_price, coupon_owner_id_param);
+
+        CALL UpdateReservationCount(round_id_param, reservation_qty_param);
+
+        COMMIT;
+
+    ELSE
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '결제에 실패했습니다. 다시 진행해주세요.';
+    END IF;
+
+END //
+
+DELIMITER ;
+
+-- CALL MakeReservation(2, 2, 2, 2);
