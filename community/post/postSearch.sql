@@ -20,7 +20,7 @@ BEGIN
         COALESCE(u.user_name, '알수없음') AS 작성자_이름,
         COUNT(c.comment_id) AS 댓글_수,
         i.img_url AS 이미지
-    FROM post p
+    FROM post p 
     LEFT JOIN users u ON u.user_id = p.user_id
     LEFT JOIN comments c ON c.post_id = p.post_id
     LEFT JOIN image i ON i.post_id = p.post_id
