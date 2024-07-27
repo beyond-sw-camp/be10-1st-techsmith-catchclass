@@ -76,3 +76,17 @@ END //
 
 DELIMITER ;
 
+-- 예약 인원 업데이트
+DELIMITER //
+
+CREATE PROCEDURE UpdateReservationCount(
+    IN round_id_param INT,
+    IN reservation_qty_param INT
+)
+BEGIN
+    UPDATE subclass
+    SET reservation_count = reservation_count + reservation_qty_param
+    WHERE subclass_id = round_id_param;
+END //
+
+DELIMITER ;
