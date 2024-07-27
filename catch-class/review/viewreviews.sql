@@ -18,8 +18,8 @@ BEGIN
 		  JOIN subclass d ON d.subclass_id = a.round_id
 		  JOIN class e ON e.class_id = d.class_id
 		WHERE re_status = TRUE;
-END //
+END //  
 
 DELIMITER ;
 
-CALL ViewReviews();
+CALL ViewReviews();   
