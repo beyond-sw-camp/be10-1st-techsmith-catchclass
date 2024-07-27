@@ -13,3 +13,23 @@ BEGIN
 END //
 
 DELIMITER ;
+
+-- 예약 취소 시 상태 변경 및 회차 데이터 복원 프로시저
+DELIMITER //
+
+CREATE PROCEDURE UpdateReservationAndSubclass(
+    IN reservation_id_param INT,
+    IN round_id_param INT,
+    IN reservation_qty_param INT
+)
+BEGIN
+    UPDATE reservation
+    SET reservation_status = FALSE
+    WHERE reservation_id = reservation_id_param;
+
+    UPDATE subclass
+    SET reservation_count = reservation_count - reservation_qty_param
+    WHERE subclass_id = round_id_param;
+END //
+
+DELIMITER ;
