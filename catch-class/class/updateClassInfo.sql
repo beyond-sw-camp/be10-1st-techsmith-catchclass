@@ -41,4 +41,15 @@ DELIMITER ;
 
 CALL UpdateClassInfo(2, 1, '클래스명 수정', 30, '클래스 내용 수정', '회차 내용 수정', 9); 
 
--- 
+-- 테스트 코드 추가 
+SELECT 
+    c.class_id,
+    c.class_name,
+    c.class_content,
+    s.subclass_id,
+    s.reservation_limit,
+    s.subclass_content
+FROM 
+    class c
+INNER JOIN 
+    subclass s ON c.class_id = s.class_id
