@@ -7,6 +7,13 @@ CREATE PROCEDURE UpdateCouponStatusByName (
     IN p_coupon_status BOOLEAN
 )
 BEGIN
+    DECLARE coupon_exists INT;
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN
+        ROLLBACK;
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '쿠폰 상태 변경 도중 에러가 발생했습니다.';
+    END;
+    
     -- 값 검증
     IF p_coupon_name IS NULL OR p_coupon_name = '' THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '쿠폰 이름이 유효하지 않습니다.';
@@ -15,13 +22,6 @@ BEGIN
     IF p_coupon_status IS NULL THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '쿠폰 상태가 유효하지 않습니다.';
     END IF;
-
-    DECLARE coupon_exists INT;
-    DECLARE EXIT HANDLER FOR SQLEXCEPTION
-    BEGIN
-        ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '쿠폰 상태 변경 도중 에러가 발생했습니다.';
-    END;
     
     START TRANSACTION;
     

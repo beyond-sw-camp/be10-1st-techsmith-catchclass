@@ -75,8 +75,8 @@ BEGIN
                 SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '쿠폰이 승인되지 않았습니다.';
             ELSE
                 -- 쿠폰 발급
-                INSERT INTO coupon_owner (coupon_status, coupon_id, user_id)
-                VALUES (TRUE, v_coupon_id, v_user_id);
+                INSERT INTO coupon_owner (coupon_id, user_id)
+                VALUES (v_coupon_id, v_user_id);
                 
                 -- 쿠폰 발급 수량 업데이트
                 UPDATE coupon
