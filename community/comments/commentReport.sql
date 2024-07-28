@@ -54,6 +54,7 @@ BEGIN
 END //
 
 DELIMITER ;
-
-CALL ReportComment('욕설 신고','욕했음',5,2);
+-- 실행
+-- CALL ReportComment('욕설 신고','욕했음',5,2);
+-- 확인
 -- SELECT * FROM report;
