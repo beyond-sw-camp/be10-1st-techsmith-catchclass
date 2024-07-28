@@ -18,4 +18,4 @@ END //
 
 DELIMITER ; 
 
-CALL GetInquiryList();	
+-- CALL GetInquiryList();	
