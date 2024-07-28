@@ -17,4 +17,4 @@ END //
 
 DELIMITER ;
 
-CALL ViewReviews();
+-- CALL ViewReviews();

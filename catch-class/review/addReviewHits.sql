@@ -25,4 +25,4 @@ END //
 
 DELIMITER ;
 
-CALL AddReviewHits(10,9);
+-- CALL AddReviewHits(10,9);

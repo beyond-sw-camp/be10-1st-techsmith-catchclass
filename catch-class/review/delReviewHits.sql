@@ -12,4 +12,4 @@ END //
 
 DELIMITER ;
 
-CALL DeleteReviewHits(10,9);
+-- CALL DeleteReviewHits(10,9); 
