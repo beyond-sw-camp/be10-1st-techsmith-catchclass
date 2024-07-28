@@ -34,7 +34,7 @@ BEGIN
         VALUES (
             p_re_title,
             p_re_content,
-            p_rating,
+            p_rating,  
             p_reservation_id,
             NOW(),   -- 현재 시간으로 설정
             NULL,    -- 후기 수정 시간은 NULL
