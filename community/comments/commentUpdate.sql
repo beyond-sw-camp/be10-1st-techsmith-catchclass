@@ -11,18 +11,15 @@ CREATE PROCEDURE UpdateComment(
 )
 BEGIN
     DECLARE comment_author_id INT;
-    DECLARE comment_status TINYINT;
+    DECLARE comment_status_check TINYINT;
 
     -- 댓글 작성자의 ID와 상태를 가져옴
-    SELECT user_id, comment_status INTO comment_author_id, comment_status
+    SELECT user_id, comment_status INTO comment_author_id, comment_status_check
     FROM comments
     WHERE comment_id = c_comment_id;
 
     -- 댓글이 존재하지 않는 경우 에러 처리
-    IF comment_author_id IS NULL THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '존재하지 않는 댓글입니다.';
-    -- 댓글 상태가 false인 경우 에러 처리
-    ELSEIF comment_status = 0 THEN
+    IF comment_status_check = 0 THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '이미 삭제된 댓글은 수정할 수 없습니다.';
     -- 댓글 작성자가 현재 사용자와 다른 경우 에러 처리
     ELSEIF comment_author_id <> c_user_id THEN
@@ -32,7 +29,7 @@ BEGIN
         UPDATE comments
         SET
             comment_content = c_comment_content,
-            comment_update_time = NOW()
+            comment_update_time = NOW() 
         WHERE comment_id = c_comment_id;
     END IF;
 END //
