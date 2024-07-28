@@ -59,8 +59,8 @@
 
 
 
-> 고령화 사회로의 진입이 가속화되면서 노인 인구가 빠르게 증가하고 있습니다. 65세 이상 인구 비율이 높아짐에 따라, 노인의 삶의 질 향상이 중요한 사회적 이슈로 대두되고 있습니다. 많은 노인들이 은퇴 후 사회적 고립과 외로움을 겪고 있으며, 이는 신체적 및 정신적 건강에 부정적인 영향을 미쳐 노인 우울증 등의 문제를 유발할 수 있습니다. 기사에 따르면 취미가 많은 노인은 그렇지 않은 노인보다 우울증 증상이 10% 낮은 것으로 나타났습니다. 이러한 점을 바탕으로 요즘 MZ세대 사이에서 유행하는 원데이클래스를 시니어들에게도 제공하고자 'Catch Class'를 기획하였습니다.
-> 
+ **고령화 사회로의 진입이 가속화되면서 노인 인구가 빠르게 증가하고 있습니다. 65세 이상 인구 비율이 높아짐에 따라, 노인의 삶의 질 향상이 중요한 사회적 이슈로 대두되고 있습니다. 많은 노인들이 은퇴 후 사회적 고립과 외로움을 겪고 있으며, 이는 신체적 및 정신적 건강에 부정적인 영향을 미쳐 노인 우울증 등의 문제를 유발할 수 있습니다. 기사에 따르면 취미가 많은 노인은 그렇지 않은 노인보다 우울증 증상이 10% 낮은 것으로 나타났습니다. 이러한 점을 바탕으로 요즘 MZ세대 사이에서 유행하는 원데이클래스를 시니어들에게도 제공하고자 'Catch Class'를 기획하였습니다.**
+
 
 
 </br>
@@ -144,44 +144,48 @@
 
 ## 📊 요구사항 명세서
 [요구사항명세서](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=0#gid=0)
-<img width="{해상도 비율}" src="{}"/>
+
 </br></br>
 
 ## ⛓️‍💥 WBS
-[WBS](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=1957226264#gid=1957226264)
-![WBS이미지](./image/WBS.jpg)
+
+
+
+- [**WBS**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=1957226264#gid=1957226264)
+
+
+
+![WBS이미지](./image/테크스미스%20요구사항%20명세서%20-%20WBS%20최종_page-0001.jpg)
+
+
 </br></br>
-
-## ✏️ ERD
-- **ERD**
-</br>
-
-![ERD이미지](./image/ERD.jpg)
-
-</br></br>
-
 
 ## ✏️ DB모델링
 
 - **논리 모델링**
 </br>
 
-![논리이미지](./image/논리.jpg)
+![논리이미지](./image/주제영역.png)
 
 </br></br>
 
 - **물리 모델링**
 </br>
 
-![물리이미지](./image/물리영역.jpg)
+![물리이미지](./image/물리영역.png)
 </br>
 </br>
 
 ## 📋 코드 실행
 
+- ### [**기능별 코드**](https://docs.google.com/document/d/1butWeUbYxXQuCXLLMumohL8JsthPTrjrO-3Umc4UAUw/edit)
+  
+
+</br>
+</br>
 
 
 ## 📚 테스트케이스
-[테스트케이스](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=687187419#gid=687187419)
+- [**테스트케이스**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=687187419#gid=687187419)
 
 ![테스트이미지](./image/테스트케이스.jpg)
