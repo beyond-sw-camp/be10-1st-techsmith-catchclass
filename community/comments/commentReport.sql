@@ -1,7 +1,7 @@
 -- 댓글 신고 기능 
 -- 본인 댓글, 이미 신고한 댓글 신고불가능
 -- DROP PROCEDURE if EXISTS ReportComment;
-DELIMITER //class_list
+DELIMITER //
 
 CREATE PROCEDURE ReportComment(
     IN p_report_title VARCHAR(100),
