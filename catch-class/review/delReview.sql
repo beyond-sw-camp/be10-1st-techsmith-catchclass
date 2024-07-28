@@ -12,4 +12,4 @@ END //
 
 DELIMITER ;
 
-CALL DeleteReview(13);
+-- CALL DeleteReview(13);
