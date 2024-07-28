@@ -14,7 +14,7 @@ BEGIN
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
         ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Error occurred while inserting bookmark.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '찜하는 동안 오류가 발생했습니다.';
     END;
     
     START TRANSACTION;
@@ -32,10 +32,10 @@ BEGIN
     -- 사용자 또는 클래스가 존재하지 않으면 에러 발생
     IF user_exists = 0 THEN
         ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'User does not exist.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '사용자가 유효하지 않습니다.';
     ELSEIF class_exists = 0 THEN
         ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Class does not exist.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '클래스가 유효하지 않습니다.';
     ELSE
         -- 북마크 추가
         INSERT INTO bookmark (user_id, class_id)
