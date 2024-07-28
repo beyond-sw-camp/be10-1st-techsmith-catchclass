@@ -11,6 +11,4 @@ END //
 
 DELIMITER ;
 
-DROP PROCEDURE ViewLikesCountByReid;
-
-CALL ViewLikesCountByReid(10);
+-- CALL ViewLikesCountByReid(10);
