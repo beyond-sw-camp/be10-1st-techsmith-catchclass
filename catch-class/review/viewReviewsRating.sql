@@ -22,4 +22,4 @@ END //
 
 DELIMITER ;
 
-CALL ViewReviewsRating();
+-- CALL ViewReviewsRating();
