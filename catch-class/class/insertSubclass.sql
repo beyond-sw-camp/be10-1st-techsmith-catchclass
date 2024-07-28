@@ -43,11 +43,11 @@ BEGIN
 
 DELIMITER ;		
  		
-CALL InsertSubclass('Ivan', 'very hard', 15, 12,'B2',
-		 '2024-08-05 14:00:00',
-		 '2024-08-05 14:00:00',
-		 '2024-08-05 16:00:00',
-		 1,
-		 14);
+-- CALL InsertSubclass('Ivan', 'very hard', 15, 12,'B2',
+--		 '2024-08-05 14:00:00',
+--		 '2024-08-05 14:00:00',
+--		 '2024-08-05 16:00:00',
+--		 1,
+--		 14);
 
-select * from subclass;
+-- select * from subclass;
