@@ -40,6 +40,5 @@ END //
 DELIMITER ;
 
 
-
 -- CALL UpdateComment(1,1,'네네');
 -- SELECT * FROM comments;
