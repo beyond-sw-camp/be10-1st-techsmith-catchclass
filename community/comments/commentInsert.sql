@@ -12,4 +12,4 @@ INSERT INTO
 	, 1
 );
 -- 확인
-SELECT * FROM comments;
+-- SELECT * FROM comments;
