@@ -9,7 +9,7 @@ BEGIN
     DECLARE user_exists INT;
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Error occurred while fetching bookmarks.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '찜목록을 불러오는 동안 오류가 발생했습니다.';
     END;
 
     -- 사용자 존재 여부 확인
@@ -19,7 +19,7 @@ BEGIN
 
     -- 사용자가 존재하지 않으면 에러 발생
     IF user_exists = 0 THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'User does not exist.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '사용자가 유효하지 않습니다.';
     ELSE
         -- 사용자가 존재하면 찜한 목록 조회
         SELECT 
