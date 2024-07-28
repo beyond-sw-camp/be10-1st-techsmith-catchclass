@@ -35,7 +35,7 @@ BEGIN
 END //
 
 DELIMITER ;
-CALL InquiryClass('문의1', '문의내용1', 1, 3, 1);
+-- CALL InquiryClass('문의1', '문의내용1', 1, 3, 1);
 
 -- 실행 확인
 -- SELECT * FROM inquiry;	
