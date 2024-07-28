@@ -1,15 +1,18 @@
--- 1. 원데이클래스에 대한 수업 목록 조회(클래스명, 사업자명)
-DELIMITER // 
+DROP PROCEDURE IF EXISTS ClassList;
+DELIMITER //
 
 CREATE PROCEDURE ClassList()
 BEGIN 
-	SELECT 
-		c.class_name AS 클래스명,
-		u.user_name AS 사업자명
-	FROM class c
- 	left JOIN users u ON c.user_id = u.user_id;
+    SELECT 
+        c.class_name AS 클래스명,
+        u.user_name AS 사업자명
+    FROM class c
+    LEFT JOIN users u ON c.user_id = u.user_id
+    WHERE c.class_status != 0;
 END //
 
 DELIMITER ;
 
--- CALL ClassList();
+
+ -- CALL ClassList();
+ 
