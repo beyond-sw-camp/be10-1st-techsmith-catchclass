@@ -50,4 +50,4 @@ END //
 DELIMITER ;
 
 
-CALL InsertReview('Great Experience', 'The class was very informative and engaging.', '5', 2);
+-- CALL InsertReview('Great Experience', 'The class was very informative and engaging.', '5', 2);
