@@ -12,7 +12,7 @@ BEGIN
     DECLARE EXIT HANDLER FOR SQLEXCEPTION
     BEGIN
         ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Error occurred while deleting bookmark.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '찜을 취소하는 동안 오류가 발생했습니다.';
     END;
 
     START TRANSACTION;
@@ -30,10 +30,10 @@ BEGIN
     -- 사용자 또는 클래스가 존재하지 않으면 에러 발생
     IF user_exists = 0 THEN
         ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'User does not exist.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '사용자가 유효하지 않습니다.';
     ELSEIF class_exists = 0 THEN
         ROLLBACK;
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Class does not exist.';
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '클래스가 유효하지 않습니다.';
     ELSE
         -- 사용자와 클래스가 모두 존재하면 찜하기 취소
         DELETE FROM bookmark
@@ -43,7 +43,7 @@ BEGIN
         -- 해당 찜하기 기록이 없는 경우 에러 발생
         IF ROW_COUNT() = 0 THEN
             ROLLBACK;
-            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Bookmark record does not exist.';
+            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '해당 찜하기 기록이 없습니다.';
         END IF;
     END IF;
 
