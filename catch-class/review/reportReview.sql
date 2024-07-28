@@ -1,3 +1,20 @@
+-- 후기 신고 트리거(글 카테고리가 선택 안됨을 방지)
+DELIMITER //
+
+CREATE TRIGGER EnsureAtLeastOneFkNotNull
+BEFORE INSERT ON report
+FOR EACH ROW
+BEGIN
+    IF NEW.re_id IS NULL 
+       AND NEW.class_id IS NULL 
+       AND NEW.comment_id IS NULL 
+       AND NEW.post_id IS NULL THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '신고 대상 카테고리를 선택하시오';
+    END IF;
+END//
+
+DELIMITER ;
+
 DELIMITER //
 
 CREATE PROCEDURE AddReport(
@@ -47,22 +64,6 @@ END //
 
 DELIMITER ;
 
--- -- 후기 신고 트리거(글 카테고리가 선택 안됨을 방지)
--- DELIMITER //
-
--- CREATE TRIGGER EnsureAtLeastOneFkNotNull
--- BEFORE INSERT ON report
--- FOR EACH ROW
--- BEGIN
---     IF NEW.re_id IS NULL 
---        AND NEW.class_id IS NULL 
---        AND NEW.comment_id IS NULL 
---        AND NEW.post_id IS NULL THEN
---         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '신고 대상 카테고리를 선택하시오';
---     END IF;
--- END//
-
--- DELIMITER ;
 
 
-CALL AddReport(13, '블랙컨슈머', '악성 댓글 작성', 1, 1);
+-- CALL AddReport(13, '블랙컨슈머', '악성 댓글 작성', 1, 1);
