@@ -13,7 +13,7 @@ IF NEW.report_type='class' THEN
 	
 	IF count_report >=5 THEN
 		UPDATE class
-			SET class_status = FALSE
+			SET class_status = 0
 		WHERE class_id = NEW.class_id;
 	END IF;
 END IF;
@@ -79,7 +79,7 @@ BEGIN
 										FROM report 
 									WHERE report_id = report_id_para);
 			UPDATE class
-				SET class_status = false
+				SET class_status = 0
 			WHERE class_id = (SELECT class_id 
 										FROM report 
 									WHERE report_id = report_id_para);
@@ -137,4 +137,4 @@ DELIMITER ;
 -- case 3) 들어온 신고를 관리자가 decline 
 UPDATE report 
 	SET report_check = 'reject'
-WHERE report_id = 2
+WHERE report_id = 2;
