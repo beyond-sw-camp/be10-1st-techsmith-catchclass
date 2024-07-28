@@ -15,11 +15,8 @@ BEGIN
     FROM comments
     WHERE comment_id = c_comment_id;
 
-    -- 댓글이 존재하지 않는 경우 에러 처리
-    IF comment_author_id IS NULL THEN
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '존재하지 않는 댓글입니다.';
-    -- 이미 삭제된 댓글인 경우 에러 처리
-    ELSEIF comment_status = FALSE THEN
+    -- 댓글이 식제된 경우 에러 처리
+    IF comment_status = FALSE THEN
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '이미 삭제된 댓글입니다.';
     -- 댓글 작성자가 현재 사용자와 다른 경우 에러 처리
     ELSEIF comment_author_id <> c_user_id THEN
