@@ -40,5 +40,5 @@ END //
 DELIMITER ;
 
 
-CALL UpdateComment(1,1,'네11네');
-SELECT * FROM comments;
+-- CALL UpdateComment(1,1,'네11네');
+-- SELECT * FROM comments;
