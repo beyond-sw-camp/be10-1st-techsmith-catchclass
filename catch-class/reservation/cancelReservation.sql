@@ -103,22 +103,9 @@ BEGIN
     DECLARE coupon_id_value INT;
     
     IF coupon_owner_id_param IS NOT NULL THEN
-        SELECT coupon_id
-        INTO coupon_id_value
-        FROM coupon_owner
+        UPDATE coupon_owner
+        SET coupon_status = TRUE
         WHERE coupon_owner_id = coupon_owner_id_param;
-
-        IF coupon_id_value IS NOT NULL THEN
-            UPDATE coupon
-            SET coupon_amount = coupon_amount + 1
-            WHERE coupon_id = coupon_id_value;
-
-            UPDATE coupon_owner
-            SET coupon_status = TRUE
-            WHERE coupon_owner_id = coupon_owner_id_param;
-        ELSE
-            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '유효한 쿠폰이 없습니다.';
-        END IF;
     ELSE
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '유효한 쿠폰 소유자가 아닙니다.';
     END IF;
