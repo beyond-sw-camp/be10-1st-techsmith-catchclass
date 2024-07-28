@@ -55,7 +55,7 @@ END //
 
 DELIMITER ;
 
-CALL CancelReservation(11);
+-- CALL CancelReservation(11);
 
 -- 결제 취소 프로시저
 DELIMITER //
