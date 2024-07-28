@@ -5,12 +5,14 @@ CREATE PROCEDURE AddReport(
     IN AR_title VARCHAR(100),
     IN AR_content VARCHAR(300),
     IN AR_user_id INT,
-    IN AR_re_id INT  
+    IN AR_re_id INT  -- re_id를 매개변수로 추가
 )
 BEGIN
     -- 외래 키 제약 조건을 충족하는지 확인
     IF EXISTS (SELECT 1 FROM users WHERE user_id = AR_user_id) and
-       EXISTS (SELECT 1 FROM review WHERE re_id = AR_re_id) THEN
+       EXISTS (SELECT 1 FROM review WHERE re_id = AR_re_id) and
+       NOT (TRIM(AR_title) = '') and
+       NOT (TRIM(AR_content) = '') then
         INSERT INTO report (
             report_id,
             report_title,
@@ -39,7 +41,7 @@ BEGIN
         );
     ELSE 
        SIGNAL SQLSTATE '45000'
-       SET MESSAGE_TEXT = 'AR_re_id, AR_user_id 값이 참조 테이블에 유효하지 않습니다.';
+       SET MESSAGE_TEXT = 'AR_re_id, AR_user_id, report_title, report_content 값이 참조 테이블에 유효하지 않거나 빈 값입니다.';
     END if;
 END //
 
