@@ -14,17 +14,17 @@ INSERT INTO users (login_id, pwd, user_name, birthdate, telphone, gender, author
 ('user9', 'pass9', 'Ivan', '1987-04-14', '010-9012-3456', 'M', 'tutor'),
 ('user10', 'pass10', 'Judy', '1994-08-10', '010-0123-4567', 'F', 'user');
 
-INSERT INTO class (class_name, class_content, location, price, class_status, ctg_id, user_id) VALUES
-('Painting Basics', 'first content', 'Seoul', 50000, true, 1, 3),
-('Guitar for Beginners', 'second content', 'Busan', 60000, true, 2, 9),
-('Italian Cooking', 'third content', 'Daegu', 70000, true, 3, 6),
-('Yoga for Everyone', '4th content', 'Incheon', 40000, true, 4, 9),
-('Basic Programming', '5th content', 'Daejeon', 80000, true, 5, 6),
-('Entrepreneurship 101', '6th content', 'Ulsan', 90000, true, 6, 3),
-('Nutrition and Wellness', '7th content', 'Sejong', 75000, true, 7, 6),
-('Conversational English', '8th content', 'Gwangju', 65000, true, 8, 3),
-('Travel Photography', '9th content', 'Jeju', 85000, true, 10, 9),
-('Digital Marketing', '10th content', 'Seoul', 55000, true, 6, 3);
+INSERT INTO class (class_name, class_content, location, price, ctg_id, user_id) VALUES
+('Painting Basics', 'first content', 'Seoul', 50000, 1, 3),
+('Guitar for Beginners', 'second content', 'Busan', 60000, 2, 9),
+('Italian Cooking', 'third content', 'Daegu', 70000, 3, 6),
+('Yoga for Everyone', '4th content', 'Incheon', 40000, 4, 9),
+('Basic Programming', '5th content', 'Daejeon', 80000, 5, 6),
+('Entrepreneurship 101', '6th content', 'Ulsan', 90000, 6, 3),
+('Nutrition and Wellness', '7th content', 'Sejong', 75000, 7, 6),
+('Conversational English', '8th content', 'Gwangju', 65000, 8, 3),
+('Travel Photography', '9th content', 'Jeju', 85000, 10, 9),
+('Digital Marketing', '10th content', 'Seoul', 55000, 6, 3);
 
 INSERT INTO subclass (tutor_name, subclass_content, reservation_limit, reservation_count, room_info, class_date, start_time, end_time, class_id) VALUES
 ('Charlie', 'first', 20, 10, 'A1', '2024-08-01 10:00:00', '2024-08-01 10:00:00', '2024-08-01 12:00:00', 1),
