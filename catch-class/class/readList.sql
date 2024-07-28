@@ -12,4 +12,4 @@ END //
 
 DELIMITER ;
 
-CALL ClassList();
+-- CALL ClassList();
