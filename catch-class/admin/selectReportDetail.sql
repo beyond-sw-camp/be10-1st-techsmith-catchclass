@@ -9,7 +9,7 @@ BEGIN
 		, report_title AS 신고제목
 		, report_content AS 신고내용
 	 	, report_type AS 신고유형
-	   , user_id AS 신고회원ID
+		, user_id AS 신고회원ID
 	 	, re_id AS 후기ID
 	 	, class_id AS 클래스ID
 	 	, comment_id AS 댓글ID
@@ -22,4 +22,4 @@ END //
 
 DELIMITER ;
 
-CALL SelectReportDetail(3);
+-- CALL SelectReportDetail(3);
