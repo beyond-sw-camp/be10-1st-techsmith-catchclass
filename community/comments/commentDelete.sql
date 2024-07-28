@@ -36,6 +36,6 @@ END //
 DELIMITER ;
 
 
-CALL DeleteComment(1,1);
+-- CALL DeleteComment(1,1);
 -- 확인
 -- SELECT * FROM comments;
