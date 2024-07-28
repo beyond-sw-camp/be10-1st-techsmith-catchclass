@@ -143,7 +143,13 @@
 </br></br>
 
 ## 📊 요구사항 명세서
-[요구사항명세서](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=0#gid=0)
+- [**요구사항명세서**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=0#gid=0)
+
+</br></br>
+
+
+##  📑테이블 정의서
+- ### [**테이블정의서**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=187243320#gid=187243320)
 
 </br></br>
 
