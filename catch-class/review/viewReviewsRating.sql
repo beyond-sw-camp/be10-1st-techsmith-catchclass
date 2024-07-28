@@ -1,7 +1,6 @@
---  후기 목록 기본 조회 프로시저
 DELIMITER //
 
-CREATE PROCEDURE ViewReviews()
+CREATE PROCEDURE ViewReviewsRating()
 BEGIN
 		SELECT 
 		       b.re_title 후기제목
@@ -17,9 +16,10 @@ BEGIN
 		  left JOIN users c ON c.user_id = a.user_id
 		  JOIN subclass d ON d.subclass_id = a.round_id
 		  JOIN class e ON e.class_id = d.class_id
-		WHERE re_status = TRUE;
+		WHERE re_status = TRUE
+		ORDER BY rating DESC;
 END //
 
 DELIMITER ;
 
-CALL ViewReviews();
+CALL ViewReviewsRating();
