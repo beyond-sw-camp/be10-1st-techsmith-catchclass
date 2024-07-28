@@ -147,6 +147,10 @@
 
 </br></br>
 
+## 📈 플로우차트
+![플로우차트이미지](./image/플로우차트.png)
+
+</br></br>
 
 ##  📑테이블 정의서
 - ### [**테이블정의서**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=187243320#gid=187243320)
