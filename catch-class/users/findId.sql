@@ -23,4 +23,4 @@ END //
 
 DELIMITER ;
 
-CALL FindId('Alice', '010-1234-5679');
+-- CALL FindId('Alice', '010-1234-5679');
