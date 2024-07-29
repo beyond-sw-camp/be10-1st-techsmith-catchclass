@@ -219,3 +219,20 @@
 - [**테스트케이스**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=687187419#gid=687187419)
 
 ![테스트이미지](./image/테크스미스%20요구사항%20명세서%20-%20테스트케이스%20(3)_page-0001.jpg)
+</br>
+</br>
+
+## 🎭 Ubuntu에 mariadb 서버 구축
+- **구축한 서버 정보**
+<br/>
+<br/>
+
+![테스트이미지](./image/ub.png)
+
+> Master server
+- HOST IP : 192.168.1.20
+- Port : 3306
+
+> Slave server(Replication)
+- HOST IP : 192.168.1.28
+- Port : 3306
