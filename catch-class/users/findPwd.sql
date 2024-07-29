@@ -25,4 +25,4 @@ END //
 
 DELIMITER ;
 
-CALL FindPwd('user2', 'Bob', '010-2345-6780');
+-- CALL FindPwd('user2', 'Bob', '010-2345-6780');
