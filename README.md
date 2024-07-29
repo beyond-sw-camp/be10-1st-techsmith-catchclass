@@ -145,23 +145,18 @@
 ## 📊 요구사항 명세서
 - [**요구사항명세서**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=0#gid=0)
 
-</br></br>
-
-
-##  📑테이블 정의서
-- ### [**테이블정의서**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=187243320#gid=187243320)
+![요구사항명세서](./image/테크스미스%20요구사항%20명세서%20-%20요구사항%20명세서_page-0001.jpg)
 
 </br></br>
 
 ## ⛓️‍💥 WBS
 
 
-
 - [**WBS**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=1957226264#gid=1957226264)
 
 
 
-![WBS이미지](./image/테크스미스%20요구사항%20명세서%20-%20WBS%20최종_page-0001.jpg)
+![WBS이미지](./image/WBS.jpg)
 
 
 </br></br>
@@ -171,7 +166,7 @@
 - **논리 모델링**
 </br>
 
-![논리이미지](./image/주제영역.png)
+![논리이미지](./image/논리영역.png)
 
 </br></br>
 
@@ -194,4 +189,4 @@
 ## 📚 테스트케이스
 - [**테스트케이스**](https://docs.google.com/spreadsheets/d/1mdhQfdmFI1jnJKDHw_IMOMzlSMDA2RDemo6jV-6zJkY/edit?gid=687187419#gid=687187419)
 
-![테스트이미지](./image/테스트케이스.jpg)
+![테스트이미지](./image/테크스미스%20요구사항%20명세서%20-%20테스트케이스%20(3)_page-0001.jpg)

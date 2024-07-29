@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS class
     class_content VARCHAR(500) NOT NULL COMMENT '클래스 내용',
     location      VARCHAR(100) NOT NULL COMMENT '장소',
     price         INT NOT NULL COMMENT '가격',
-    class_status  BOOLEAN NOT NULL COMMENT '클래스 상태' DEFAULT TRUE,
+    class_status  ENUM('1', '2', '0') NOT NULL DEFAULT 1 COMMENT '클래스 상태',
     ctg_id        INT NOT NULL COMMENT '카테고리ID',
     user_id       INT NULL COMMENT '회원ID',
     PRIMARY KEY (class_id),
@@ -197,7 +197,7 @@ CREATE TABLE IF NOT EXISTS coupon
     coupon_created        DATETIME NOT NULL COMMENT '쿠폰 생성일',
     coupon_expire_date    DATETIME NOT NULL COMMENT '쿠폰 유효기간',
     class_id              INT NOT NULL COMMENT '클래스ID',
-    coupon_status         BOOLEAN NOT NULL COMMENT '쿠폰 승인 상태' DEFAULT false,
+    coupon_status         BOOLEAN NOT NULL COMMENT '쿠폰 승인 상태' DEFAULT FALSE,
     PRIMARY KEY (coupon_id),
     FOREIGN KEY (class_id) REFERENCES class (class_id)
 ) COMMENT = '쿠폰';
@@ -206,7 +206,7 @@ CREATE TABLE IF NOT EXISTS coupon
 CREATE TABLE IF NOT EXISTS coupon_owner
 (
     coupon_owner_id    INT NOT NULL AUTO_INCREMENT COMMENT '쿠폰 소유자ID',
-    coupon_status      BOOLEAN NOT NULL COMMENT '쿠폰 상태',
+    coupon_status      BOOLEAN NOT NULL COMMENT '쿠폰 상태' DEFAULT FALSE,
     coupon_id          INT NOT NULL COMMENT '쿠폰ID',
     user_id            INT NULL COMMENT '회원ID',
     PRIMARY KEY (coupon_owner_id),

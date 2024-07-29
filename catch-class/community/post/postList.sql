@@ -17,7 +17,7 @@ GROUP BY p.post_id;
 -- 게시글 조회 / 최신순 (게시글 리스트, 화면에 보이는 댓글 갯수)
 SELECT 
     p.post_title AS 게시글_제목,
-    COALESCE(CONCAT(p.post_update, '(수정)'), p.post_time) AS 게시글_작성시간,
+    p.post_time AS 게시글_작성시간,
     COALESCE(u.user_name, '알수없음') AS 작성자_이름,
     COUNT(c.comment_id) AS 댓글_수,
     i.img_url AS 이미지
@@ -32,7 +32,6 @@ ORDER BY COALESCE(p.post_update, p.post_time) DESC;
 -- SELECT * FROM post
 
 -- 게시글 조회 / 댓글 많은 순서  (게시글 리스트, 화면에 보이는 댓글 갯수)
-
 SELECT 
     p.post_title AS 게시글_제목,
     COALESCE(CONCAT(p.post_update, '(수정)'), p.post_time) AS 게시글_작성시간,
